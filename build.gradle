@@ -1,6 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 buildscript {
+    ext.kotlin_version = '1.2.60'
     ext.kotlin_version = '1.2.30'
     repositories {
         google()
@@ -14,6 +15,11 @@ buildscript {
         // in the individual module build.gradle files
     }
 }
+
+ext {
+    S_MIN = 21
+}
+
 
 allprojects {
     repositories {
