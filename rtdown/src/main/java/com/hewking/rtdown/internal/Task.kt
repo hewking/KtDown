@@ -7,7 +7,7 @@ class Task : AbstractTask(){
     }
 
     override fun run() {
-
+        start()
     }
 
 }
